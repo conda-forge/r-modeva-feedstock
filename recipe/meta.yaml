@@ -1,4 +1,4 @@
-{% set version = "3.20" %}
+{% set version = "3.23" %}
 {% set posix = 'm2-' if win else '' %}
 
 package:
@@ -9,7 +9,7 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/modEvA_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/modEvA/modEvA_{{ version }}.tar.gz
-  sha256: acc3a9ed0dec70fbefea52611478844203e5ec28dd10648f77d635ea3a0e8b66
+  sha256: 2f205bf5afcbbe8b37cf88ba9dd3f7d100d2997828d903d0159ffb9d7a6d73f7
 
 build:
   number: 0
